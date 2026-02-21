@@ -1,0 +1,22 @@
+export const GAME_EVENTS = {
+  STREAM_BET_CREATED: "stream.bet.created",
+  CRASH_TIMER: "crash.timer",
+  CRASH_TICK: "crash.tick",
+  CRASH_RESET: "crash.round.reset",
+  CRASH_BETS_SNAPSHOT: "crash.bets.snapshot",
+  JACKPOT_TIMER: "jackpot.timer",
+  JACKPOT_SLIDER: "jackpot.slider",
+  JACKPOT_UPDATE: "jackpot.update",
+  JACKPOT_NEW_ROUND: "jackpot.newRound",
+  WHEEL_TIMER: "wheel.timer",
+  WHEEL_SLIDER: "wheel.slider",
+  WHEEL_BETS: "wheel.bets",
+  WHEEL_NEW_ROUND: "wheel.newRound",
+  COINFLIP_CREATED: "coinflip.created",
+  COINFLIP_RESOLVED: "coinflip.resolved",
+  BATTLE_NEW_BET: "battle.newBet",
+  BATTLE_TIMER: "battle.timer",
+  BATTLE_SLIDER: "battle.slider",
+  BATTLE_NEW_ROUND: "battle.newRound",
+} as const;
+
