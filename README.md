@@ -2,6 +2,7 @@
 
 This repository contains:
 - `win2xnext` frontend (Next.js)
+- `win2xnext` admin (Next.js)
 - `win2xnext/backend` backend (Node.js + WebSocket + MongoDB)
 
 ## Environment Files
